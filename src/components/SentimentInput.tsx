@@ -18,7 +18,7 @@ export const SentimentInput = ({ onAnalyze }: { onAnalyze: (text: string) => voi
         <textarea
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Enter text to analyze sentiment..."
+          placeholder="Enter comment (in Eanglish) to analyze sentiment..."
           className="w-full min-h-[120px] p-4 pr-12 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all resize-none glass-card"
         />
         <button
