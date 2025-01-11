@@ -1,69 +1,120 @@
-# Welcome to your Lovable project
+# Comment Analyzer
 
-## Project info
+![Comment Analyzer Banner](https://comment-analyzer-omega.vercel.app/og-image.png)  
+An intelligent tool for analyzing comments and detecting sentiment, inappropriate language, or other specified patterns. Built with a focus on performance, accuracy, and an intuitive user experience.
 
-**URL**: https://lovable.dev/projects/7ed0e82b-9cbd-4ecb-b935-0f7a56416f2b
+---
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+- **Sentiment Analysis**: Classifies comments as positive, negative, or neutral.
+- **Content Moderation**: Detects inappropriate or harmful language.
+- **Real-time Processing**: Analyzes comments quickly and efficiently.
+- **User-Friendly Interface**: Clean and intuitive design for seamless interaction.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ed0e82b-9cbd-4ecb-b935-0f7a56416f2b) and start prompting.
+## 🚀 Demo
 
-Changes made via Lovable will be committed automatically to this repo.
+Check out the live application: [Comment Analyzer](https://comment-analyzer-omega.vercel.app/)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend**: React.js, Tailwind CSS
+- **Hosting**: Vercel
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🏗️ Installation and Setup
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Follow these steps to run the project locally:
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/comment-analyzer.git
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2. **Navigate to the project directory**:
+   ```bash
+   cd comment-analyzer
+   ```
 
-**Edit a file directly in GitHub**
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
-**Use GitHub Codespaces**
+5. **Access the application**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧪 Usage
 
-This project is built with .
+1. Paste a comment or input text into the provided field.
+2. Click the "Analyze" button.
+3. View the analysis results, including sentiment classification and flagged content.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📚 Documentation
 
-Simply open [Lovable](https://lovable.dev/projects/7ed0e82b-9cbd-4ecb-b935-0f7a56416f2b) and click on Share -> Publish.
+- **How it Works**: The tool uses machine learning models and predefined algorithms to analyze text for sentiment and inappropriate content.
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## 🐛 Reporting Issues
+
+If you encounter any bugs or have feature requests, please open an issue on GitHub: [Issue Tracker](https://github.com/bimadevs/CommentAnalyzerissues).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🎉 Acknowledgments
+
+Special thanks to:
+- Open-source contributors
+- Libraries and frameworks used in this project
+
+---
+
+## 📬 Contact
+
+For inquiries, please email me at [bimadev06@gmail.com](mailto:bimadev06@gmail.com).
+
+---
+
+Happy coding! 🚀
